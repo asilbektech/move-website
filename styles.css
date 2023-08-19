@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter";
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+/* Header */
+
+#header {
+    padding: 4rem 10rem;
+}
+
+.logo {
+    height: auto;
+    width: 18.2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation {
+    width: calc(100% - 18.2rem);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.navigation-links {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+.navigation-links li {
+    display: inline-block;
+}
+
+.navigation-links li:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.navigation-links a {
+    color: #8a94a6;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.navigation-action {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    height: 4.5rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    color: #ffffff;
+    background-color: #377dff;
+}
