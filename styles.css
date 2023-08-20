@@ -269,3 +269,69 @@ h1 {
     font-weight: 600;
     line-height: 2.4rem;
 }
+
+/* Footer section */
+
+.footer {
+    padding: 8rem 6rem;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.footer p {
+    line-height: 4.5rem;
+}
+
+.footer-brand {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 36rem) * 0.35);
+    margin-bottom: 8rem;
+}
+
+.heading-4 {
+    margin-top: 3.5rem;
+    color: #323b4b;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+}
+
+.footer-logo,
+.footer-links .heading-4 {
+    margin-bottom: 2.8rem;
+}
+
+.footer-social-media {
+    margin-top: 3rem;
+}
+
+.footer-social-media img:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.footer-section .heading-4 {
+    margin-bottom: 2.5rem;
+}
+
+.footer-links {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 36rem) * 0.65 / 4);
+}
+
+.footer-brand,
+.footer-links:not(:nth-child(5)) {
+    margin-right: 9rem;
+}
+
+.text-lg {
+    color: #8a94a6;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    margin-bottom: 3.1rem;
+}
